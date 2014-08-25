@@ -42,6 +42,7 @@
 		EA13A4144EC14F1EA9D55CE8 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E455E8F22147D291618C7F /* UIWebViewExtension.m */; };
 		12FBA18DC432498B8818725A /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF5EC7243DE47ADB0CE74B3 /* CDVLogger.m */; };
 		4F5A793B68C3438BAB0D607F /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FE0A863E145ED8EDB69B7 /* CDVDevice.m */; };
+		EA84150D1B62434493FDBFE2 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF329E5ED7B4001AB62253B /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,8 @@
 		701720D6EC02473A9B7E1B39 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		C40FE0A863E145ED8EDB69B7 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		064384C4A4AC4C1BA991EA40 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CBF329E5ED7B4001AB62253B /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FFCE7EFE75C149239D40C0FF /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,8 @@
 				701720D6EC02473A9B7E1B39 /* CDVLogger.h */,
 				C40FE0A863E145ED8EDB69B7 /* CDVDevice.m */,
 				064384C4A4AC4C1BA991EA40 /* CDVDevice.h */,
+				CBF329E5ED7B4001AB62253B /* CDVSplashScreen.m */,
+				FFCE7EFE75C149239D40C0FF /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = "ionicDemo/Plugins";
@@ -440,6 +445,7 @@
 				EA13A4144EC14F1EA9D55CE8 /* UIWebViewExtension.m in Sources */,
 				12FBA18DC432498B8818725A /* CDVLogger.m in Sources */,
 				4F5A793B68C3438BAB0D607F /* CDVDevice.m in Sources */,
+				EA84150D1B62434493FDBFE2 /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
